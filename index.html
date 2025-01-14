@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Karl Naba | Portfolio</title>                           <!-- TODO: Replace with your info -->
+    <meta name="description" content="Short web-page about myself." />    <!-- TODO: Replace with your description (optional) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#connect">Connect</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <!-- Name and info -->
+      <div class="profile-flex">
+        <div>
+          <h1>
+            <!-- TODO: Replace below `data-type` with custom phrases (line 30) -->
+            <a
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "Heyo peeps, I&#39;m Karl.", "I love to learn.", "Karl Naba :)" ]'
+            >
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          <ul>
+            <!-- TODO: Replace with your info -->
+            <li>Class of 2025</li>
+            <li>B.Sc. in Computer Engineering, Concentration, ML</li>
+            <li>Teaching Assistant for ec447 (Software Design)</li>
+            <li>Research Assistant at BU WISE Circuits Lab</li>
+          </ul>
+        </div>
+
+        <!-- TODO: Replace with your info -->
+        <div class="profile tilt">
+          <a
+            href="https://github.com/Karlnaba"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img class="profile-img" src="/assets/images/profile/profile.jpg" alt="profile" />
+          </a>
+        </div>
+      </div>
+
+      <div class="content-separator"></div>
+
+      <!-- Short Bio -->
+      <!-- TODO: Replace with your info -->
+      <h2 id="about">About me</h2>
+      <p>
+        Hello there, my name is Karl, and I'm originally from Beirut, Lebanon. A fun fact about me is 
+        that I speak French, Arabic, and English fluently! Currently, I'm a senior and aspiring software
+        engineer studying at Boston University.
+      </p>
+      <p>
+        I absolutely love learning new skills and challenging myself in
+        different aspects. To learn more about what I've been working on, feel
+        free to check out my
+        <a href="https://github.com/Karlnaba">GitHub</a> 😁.
+      </p>
+
+      <div class="content-separator"></div>
+
+      <!-- Projects -->
+       <!-- TODO: Replace with your info -->
+      <h2 id="projects">Projects</h2>
+      <div class="projects-container">
+        <!-- project 1 -->
+        <a
+          href="https://github.com/Karlnaba/Recycle-master"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link tilt tilt-small"
+        >
+          <div class="project">
+            <img src="/assets/images/projects/recycling_app_image.webp" alt="Recycle Master" />
+            <h3>Recycle Master</h3>
+            <p>
+              RecycleMaster is a mobile app built with React Native, FastAPI, and YOLO, leveraging real-time object detection to classify recyclable and non-recyclable items, enhancing user awareness of proper waste disposal.
+            </p>
+          </div>
+        </a>
+
+        <!-- project 2 -->
+        <a
+          href="https://github.com/rohankumar-1/search-engine"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link tilt tilt-small"
+        >
+          <div class="project">
+            <img src="/assets/images/projects/search_engine_image.webp" alt="search-engine" />
+            <h3>Financial Search Engine</h3>
+            <p>
+              Financial News Engine is a real-time financial news aggregator built with React.js, Flask, and Elasticsearch, featuring advanced ML capabilities like sentiment analysis, article summarization, and topic classification for enhanced financial insights.
+            </p>
+          </div>
+        </a>
+        <!-- Add more project blocks as needed -->
+      </div>
+
+      <div class="content-separator"></div>
+
+      <!-- Activites and Interests -->
+      <!-- TODO: Replace with your info -->
+      <h2 id="interests">How I spend my free time?</h2>
+      <div class="interests-table-container">
+        <table class="interests-table">
+          <!-- activity 1 -->
+          <tr>
+            <td>
+              <img
+                src="/assets/images/activities/coding_image.jpg"
+                alt="coding at BostonHacks with my team in November 2024"
+              />
+            </td>
+            <td>
+              <h3>Coding</h3>
+              <p>
+                Even though we have to code constantly for class, this is
+                something that I genuinely enjoy learning in my free time.
+              </p>
+              <p>
+                Especially for when it comes to
+                <strong>web-development</strong>, where the creative
+                opportunities are literally endless, I find myself spending
+                hours going down rabbit holes of formative exploration.
+              </p>
+            </td>
+            <td>
+              <h3>Quicklinks</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/rohankumar-1/search-engine"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Search Engine</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Karlnaba/Recycle-master"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Recycle Master</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/damlad12/Team_8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Movie Recommendation</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Karlnaba/BU-GCalSync"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >BU-GCalSync</a
+                  >
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <!-- activity 2 -->
+          <tr>
+            <td>
+              <img
+                src="/assets/images/activities/boxing_image.jpg"
+                alt="at boxing training"
+              />
+            </td>
+            <td>
+              <h3>Boxing</h3>
+              <p>
+                I started boxing about a year ago, and since then, it
+                has been nothing short of amazing (maybe even
+                <em>addicting</em>).
+              </p>
+              <p>
+                I love the challenge of mastering technique and strategy in boxing, constantly testing 
+                my limits, and pushing my body and mind to perform at their peak.
+              </p>
+            </td>
+            <td>
+              <h3>Quicklinks</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.usaboxing.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >USA Boxing</a
+                  >
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <!-- activity 3 -->
+          <tr>
+            <td>
+              <img
+                src="/assets/images/activities/sae_image.jpg"
+                alt="tabling with SAE (Sigma Alpha Epsilon)"
+              />
+            </td>
+            <td>
+              <h3>BU Sigma Alpha Espilon (SAE)</h3>
+              <p>
+                I joined SAE (a social fraternity) my second semester
+                 at BU. It was probably one of the most impactful
+                decisions I've made in terms of the
+                <strong>friends </strong> I made along the way, <strong> social skills</strong> acquired,
+                and abundance of unique experiences. (Feel free to check out our
+                website 😜)
+              </p>
+            </td>
+            <td>
+              <h3>Quicklinks</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.sae.net/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >SAE</a
+                  >
+                </li>
+                <li>
+                  
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <!-- activity 4 -->
+          <tr>
+            <td>
+              <img src="/assets/images/activities/soccer_image.jpg" alt="BU Intramural Soccer Team" />
+            </td>
+            <td>
+              <h3>Soccer</h3>
+              <p>
+                I’ve been playing soccer since I was 10 years old, and it’s been a big part of my life ever since. 
+                About two years ago, I decided to take my love for the game further by creating a team of 30 players. 
+                We meet twice a week for pickup games, which has been an amazing way to bring people together and 
+                share our passion for the sport.
+              </p>
+              <p>
+                I also play intramural soccer at BU, where I continue to challenge myself and grow as a player. 
+                Soccer has always been more than just a sport for me—it’s a source of joy, teamwork, and personal growth.
+              </p>
+            </td>
+            <td>
+              <h3>Quicklinks</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.bu.edu/fitrec/what-we-offer/clubsims/intramural-sports/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Intramurals Soccer at BU</a
+                  >
+                </li>
+            
+              </ul>
+            </td>
+          </tr>
+          <!-- Add more activity table rows as needed -->
+        </table>
+      </div>
+      
+      <div class="content-separator"></div>
+  
+      <!-- connect Section -->
+       <!-- TODO: Replace with your info -->
+      <h2 id="connect">Let's Connect</h2>
+      <div class="connect-container">
+        <p>Feel free to reach out through any of these platforms:</p>
+        <ul class="connect-links">
+          <li>
+            <a href="mailto:karlnaba@bu.edu" target="_blank" rel="noopener noreferrer">
+              📧 Email
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Karlnaba" target="_blank" rel="noopener noreferrer">
+              💻 GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/karl-naba/" target="_blank" rel="noopener noreferrer">
+              💼 LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <script src="js/index.js" async defer></script>
+  </body>
+</html>
